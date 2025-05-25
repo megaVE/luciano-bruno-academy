@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Layout</title>
+</head>
+<body>
+  <div class="generic-container">
+    <header class="temp-header">
+      <img src="img/new-academy-header.png" alt="Header Image">
+    </header>
+    <div class="container">
+      <!-- Barra de Busca -->
+      <div class="query-container">
+        <div class="query-component">
+          <input
+            type="text"
+            class="query-input"
+            name="query"
+            id="query"
+            placeholder="Buscar..."
+          >
+          <button type="submit" class="query-button">
+            <img
+              src="img/search_icon.svg"
+              alt="Buscar"
+            >
+          </button>
+        </div>
+        <div class="query-fade"></div>
+      </div>
+      <!-- Resultados -->
+      <ul class="result-container">
+        <li class="result-card">
+          <div class="result-content">
+            <h3 class="result-title">
+              <span class="course">
+                Chás, shots & especiarias
+              </span>
+              <div>
+                <span class="course-class">
+                  Chás, shots, tinturas e extratos
+                </span>
+                <span class="time">
+                  (43:23)
+                </span>
+              </div>
+            </h3 class="result-title">
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo inventore eos, non quam nostrum vero consequatur maiores velit ea adipisci doloribus quos eligendi voluptatum sint delectus saepe! Minima, laudantium vel!
+            </p>
+          </div>
+        </li>
+        <li class="result-card">
+          <div class="result-content">
+            <h3 class="result-title">
+              <span class="course">
+                Autoimune: nutrição, remissão e ressignificação
+              </span>
+              <div>
+                <span class="course-class">
+                  Doenças autoimunes
+                </span>
+                <span class="time">
+                  (8:09)
+                </span>
+              </div>
+            </h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iure, quam quia minima enim, nesciunt iusto consequatur nemo nobis exercitationem vel. Excepturi maiores porro repellendus reiciendis, iusto ipsam modi cupiditate!
+            </p>
+          </div>
+        </li>
+        <li class="result-card">
+          <div class="result-content">
+            <h3 class="result-title">
+              <span class="course">
+                Exames laboratoriais: interpretação eficiente
+              </span>
+              <div>
+                <span class="course-class">
+                  Distúrbios hormonais
+                </span>
+                <span class="time">
+                  (12:30)
+                </span>
+              </div>
+            </h3>
+            <p class="description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem sint qui et, recusandae blanditiis placeat nemo nesciunt minus, unde expedita numquam sapiente eius natus odit perspiciatis fugit! Soluta, delectus non.
+            </p>
+          </div>
+        </li>
+        <li class="result-card">
+          <div class="result-content">
+            <h3 class="result-title">
+              <span class="course">
+                Nutrição eficiente - das bases moleculares à prática clínica
+              </span>
+              <div>
+                <span class="course-class">
+                  Seus genes, sua dieta
+                </span>
+                <span class="time">
+                  (11:01)
+                </span>
+              </div>
+            </h3 class="result-title">
+            <p class="description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, suscipit nostrum amet culpa similique, eaque possimus vitae consequuntur reprehenderit delectus facere. Doloribus, maiores eius vero quod cupiditate nostrum debitis accusamus.
+            </p>
+          </div>
+        </li>
+        <li class="result-card">
+          <div class="result-content">
+            <h3 class="result-title">
+              <span class="course">
+                Pós graduação em reprogramação epigenética eficiente
+              </span>
+              <div>
+                <span class="course-class">
+                  Biologia Molecular e câncer
+                </span>
+                <span class="time">
+                  (11:01)
+                </span>
+              </div>
+            </h3 class="result-title">
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repudiandae non nihil. Assumenda, harum. Neque molestiae quod modi quibusdam omnis, officia rerum recusandae hic unde sint natus odit nulla repellat.
+            </p>
+          </div>
+        </li>
+        <li class="result-card">
+          <div class="result-content">
+            <h3 class="result-title">
+              <span class="course">
+                The DNA masterclass
+              </span>
+              <div>
+                <span class="course-class">
+                  Doenças neurológicas
+                </span>
+                <span class="time">
+                  (11:01)
+                </span>
+              </div>
+            </h3 class="result-title">
+            <p class="description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, ipsum rerum praesentium aliquid amet fugiat ullam consectetur repellat, ex doloremque dicta. Dolorum libero qui laboriosam. Maxime exercitationem dolorum modi quaerat!
+            </p>
+          </div>
+        </li>
+      </ul>
+      <!-- Paginação -->
+      <div class="pagination-container">
+        <ul class="pages">
+          <li class="highlighted-page"><</li>
+          <li>1</li>
+          <li class="selected-page">2</li>
+          <li>3</li>
+          <li class="many-pages">...</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li class="highlighted-page">></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
